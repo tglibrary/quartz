@@ -13,7 +13,9 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "posthog",
+      host: 'https://us.i.posthog.com',
+      apiKey: 'phc_vRs0iTShOzvc23GPJUFf6NeLSuSjZKSnByJrlWN9DkQ'
     },
     locale: "ru-RU",
     baseUrl: "ge.tglib.org",
