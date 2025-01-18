@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "ru-RU",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "tglib.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
